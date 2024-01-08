@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>database/login.db</file>
+    </qresource>
+</RCC>

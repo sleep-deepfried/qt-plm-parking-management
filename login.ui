@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QMainWindow" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*background-color: rgb(27, 34, 35);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>31</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: rgb(41, 55, 56);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="assets.qrc">
+      <normaloff>:/assets/icons/close.png</normaloff>:/assets/icons/close.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_logo">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>351</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/assets/icons/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_login">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>350</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(58, 79, 80);
+color: rgb(244, 243, 253);
+border-radius: 8px;
+}
+
+QPushButton:hover{
+	background-color: rgb(41, 55, 56);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_admin">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/assets/icons/admin.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_admin">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>230</y>
+      <width>251</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-bottom: 0.5px solid white; 
+border-radius: 0px;
+color: rgb(244, 243, 253);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_password">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>270</y>
+      <width>251</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-bottom: 0.5px solid white; 
+border-radius: 0px;
+color: rgb(244, 243, 253);</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_password">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>280</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/assets/icons/password.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>

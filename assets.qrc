@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/icons/close.png</file>
+        <file>assets/icons/parking-icon.png</file>
+        <file>assets/icons/PLM-logo.png</file>
+        <file>assets/icons/logo.png</file>
+        <file>assets/icons/admin.png</file>
+        <file>assets/icons/password.png</file>
+        <file>assets/icons/church-icon-white.png</file>
+        <file>assets/icons/free_icon_1 (2).png</file>
+        <file>assets/icons/Picture1.png</file>
+        <file>assets/icons/white-home-icon-png-21.jpg</file>
+        <file>assets/icons/available 2.png</file>
+        <file>assets/icons/maintenance 2.png</file>
+        <file>assets/icons/occupied 1.png</file>
+        <file>assets/icons/reserve.png</file>
+        <file>assets/icons/Picture1.jpg</file>
+        <file>assets/icons/logout-icon-png-3.jpg</file>
+        <file>assets/icons/210-2102230_insurance-agency-church-auto-renter-s-insurance-white-removebg-preview.png</file>
+        <file>assets/icons/PLM PARKING MANAGEMENT SYSTEM FINAL (1).png</file>
+        <file>assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</file>
+        <file>assets/icons/PLM_PARKING_MANAGEMENT_SYSTEM_FINAL__1_-removebg-preview.png</file>
+    </qresource>
+</RCC>
