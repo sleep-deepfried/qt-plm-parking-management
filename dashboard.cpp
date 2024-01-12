@@ -7832,6 +7832,8 @@ void Dashboard::on_pushButton_UAC_001_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -7957,6 +7959,8 @@ void Dashboard::on_pushButton_UAC_003_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -8018,6 +8022,8 @@ void Dashboard::on_pushButton_UAC_004_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
@@ -8081,6 +8087,8 @@ void Dashboard::on_pushButton_UAC_005_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -8143,6 +8151,8 @@ void Dashboard::on_pushButton_UAC_006_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -8204,6 +8214,8 @@ void Dashboard::on_pushButton_UAC_007_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
@@ -10809,6 +10821,8 @@ void Dashboard::on_pushButton_Canteen_001_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -10870,6 +10884,8 @@ void Dashboard::on_pushButton_Canteen_002_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
@@ -10933,6 +10949,8 @@ void Dashboard::on_pushButton_Canteen_003_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -10994,6 +11012,8 @@ void Dashboard::on_pushButton_Canteen_004_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
@@ -11057,6 +11077,8 @@ void Dashboard::on_pushButton_Canteen_005_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -11118,6 +11140,8 @@ void Dashboard::on_pushButton_Canteen_006_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
@@ -11181,6 +11205,8 @@ void Dashboard::on_pushButton_Canteen_007_clicked()
             connClose();
         }
 
+        updateButtonStylesheet();
+
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();
         QSqlQuery query;
@@ -11242,6 +11268,8 @@ void Dashboard::on_pushButton_Canteen_008_clicked()
             qDebug() << "No match found for ButtonName and CheckOut is NULL";
             connClose();
         }
+
+        updateButtonStylesheet();
 
     }else if (buttonStyleSheet.contains(":/assets/icons/occupied 1.png")){
         connOpen();

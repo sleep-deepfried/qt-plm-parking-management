@@ -1,8 +1,6 @@
 #include "parkingdialog.h"
 #include "ui_parkingdialog.h"
 
-
-
 ParkingDialog::ParkingDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ParkingDialog)
@@ -13,12 +11,14 @@ ParkingDialog::ParkingDialog(QWidget *parent) :
     ui->comboBox_Vehicle_Type->addItem("Motorcycle");
     ui->comboBox_Vehicle_Type->addItem("Bicycle");
 
-    //setting the date
+    // Setting up QIntValidator for the mobile number field
+    QIntValidator *validator = new QIntValidator(this);
+    ui->lineEdit_Mobile_Numb->setValidator(validator);
+
+    // Setting the date
     dateTimer = new QTimer(this);
     connect(dateTimer, &QTimer::timeout, this, &ParkingDialog::updateDateTime);
-    dateTimer->start(1000); // Update every 1000 milliseconds (1 second)\
-
-    //qDebug() << ParkingAttendant;
+    dateTimer->start(1000); // Update every 1000 milliseconds (1 second)
 }
 
 ParkingDialog::~ParkingDialog()

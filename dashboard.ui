@@ -65,9 +65,9 @@ color: rgb(244, 243, 253);</string>
        <widget class="QLabel" name="label_Date">
         <property name="geometry">
          <rect>
-          <x>790</x>
+          <x>720</x>
           <y>20</y>
-          <width>351</width>
+          <width>421</width>
           <height>41</height>
          </rect>
         </property>
@@ -138,7 +138,7 @@ QPushButton:hover {
 border-radius:8px;</string>
         </property>
         <property name="currentIndex">
-         <number>0</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="Main">
          <widget class="QPushButton" name="pushButton_Canteen_04">
@@ -1632,16 +1632,16 @@ border-radius: 8px</string>
          <widget class="QLabel" name="label_7">
           <property name="geometry">
            <rect>
-            <x>320</x>
+            <x>240</x>
             <y>20</y>
-            <width>221</width>
+            <width>361</width>
             <height>41</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
-            <pointsize>12</pointsize>
+            <family>Bebas Neue</family>
+            <pointsize>16</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -1666,8 +1666,8 @@ color: rgb(0, 0, 0);</string>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
-            <pointsize>12</pointsize>
+            <family>Bebas Neue</family>
+            <pointsize>16</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -1684,16 +1684,16 @@ color: rgb(0, 0, 0);</string>
          <widget class="QLabel" name="label_17">
           <property name="geometry">
            <rect>
-            <x>100</x>
+            <x>80</x>
             <y>310</y>
-            <width>61</width>
+            <width>101</width>
             <height>21</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
-            <pointsize>12</pointsize>
+            <family>Bebas Neue</family>
+            <pointsize>16</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -2322,7 +2322,7 @@ border-radius: 8px</string>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
+            <family>Bebas Neue</family>
             <pointsize>36</pointsize>
            </font>
           </property>
@@ -2732,7 +2732,7 @@ border-radius: 8px</string>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
+            <family>Bebas Neue</family>
             <pointsize>36</pointsize>
            </font>
           </property>
@@ -4306,7 +4306,7 @@ border-radius: 8px</string>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
+            <family>Bebas Neue</family>
             <pointsize>28</pointsize>
            </font>
           </property>
@@ -5372,16 +5372,16 @@ border-radius: 8px</string>
          <widget class="QLabel" name="label_98">
           <property name="geometry">
            <rect>
-            <x>960</x>
+            <x>940</x>
             <y>180</y>
-            <width>71</width>
+            <width>91</width>
             <height>71</height>
            </rect>
           </property>
           <property name="font">
            <font>
-            <family>Bebas</family>
-            <pointsize>12</pointsize>
+            <family>Bebas Neue</family>
+            <pointsize>20</pointsize>
            </font>
           </property>
           <property name="styleSheet">
@@ -5538,9 +5538,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
-          <pointsize>16</pointsize>
-          <bold>true</bold>
+          <family>Bebas Neue</family>
+          <pointsize>20</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5561,9 +5561,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
-          <pointsize>16</pointsize>
-          <bold>true</bold>
+          <family>Bebas Neue</family>
+          <pointsize>20</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5584,9 +5584,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
-          <pointsize>16</pointsize>
-          <bold>true</bold>
+          <family>Bebas Neue</family>
+          <pointsize>20</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5607,9 +5607,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
-          <pointsize>16</pointsize>
-          <bold>true</bold>
+          <family>Bebas Neue</family>
+          <pointsize>20</pointsize>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5630,9 +5630,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
+          <family>Bebas Neue</family>
           <pointsize>16</pointsize>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5642,7 +5642,7 @@ border-radius: 8px</string>
          <string notr="true"/>
         </property>
         <property name="text">
-         <string>HOME</string>
+         <string>                 HOME</string>
         </property>
        </widget>
        <widget class="QPushButton" name="pushButton_Parking">
@@ -5656,9 +5656,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
+          <family>Bebas Neue</family>
           <pointsize>16</pointsize>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5682,9 +5682,9 @@ border-radius: 8px</string>
         </property>
         <property name="font">
          <font>
-          <family>Roboto</family>
+          <family>Bebas Neue</family>
           <pointsize>16</pointsize>
-          <bold>true</bold>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
@@ -5911,28 +5911,6 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QLabel" name="label_13">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>410</y>
-          <width>31</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: transparent;</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="pixmap">
-         <pixmap resource="assets.qrc">:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_14">
         <property name="geometry">
          <rect>
@@ -5955,6 +5933,28 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
          <bool>true</bool>
         </property>
        </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>410</y>
+          <width>41</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: transparent;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="assets.qrc">:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
        <zorder>label_3</zorder>
        <zorder>label_2</zorder>
        <zorder>label_Date</zorder>
@@ -5972,8 +5972,8 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
        <zorder>label_6</zorder>
        <zorder>label_9</zorder>
        <zorder>label_12</zorder>
-       <zorder>label_13</zorder>
        <zorder>label_14</zorder>
+       <zorder>label_13</zorder>
       </widget>
       <widget class="QWidget" name="Reports">
        <attribute name="title">
@@ -6356,7 +6356,7 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="assets.qrc">:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</pixmap>
+         <pixmap>:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -6387,9 +6387,9 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
        <widget class="QLabel" name="label_10">
         <property name="geometry">
          <rect>
-          <x>710</x>
+          <x>660</x>
           <y>90</y>
-          <width>71</width>
+          <width>121</width>
           <height>41</height>
          </rect>
         </property>
@@ -6410,9 +6410,9 @@ background-color: transparent;</string>
        <widget class="QLabel" name="label_Date_2">
         <property name="geometry">
          <rect>
-          <x>830</x>
+          <x>770</x>
           <y>20</y>
-          <width>351</width>
+          <width>411</width>
           <height>41</height>
          </rect>
         </property>
@@ -6838,7 +6838,7 @@ background-image: url(:/assets/icons/Picture1.jpg)</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="assets.qrc">:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</pixmap>
+         <pixmap>:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text-removebg-preview.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
@@ -6869,9 +6869,9 @@ background-image: url(:/assets/icons/Picture1.jpg)</string>
        <widget class="QLabel" name="label_Date_3">
         <property name="geometry">
          <rect>
-          <x>820</x>
+          <x>760</x>
           <y>20</y>
-          <width>351</width>
+          <width>411</width>
           <height>41</height>
          </rect>
         </property>
