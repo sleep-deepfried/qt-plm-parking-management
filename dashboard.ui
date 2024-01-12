@@ -5950,7 +5950,7 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="assets.qrc">:/assets/icons/images (1).png</pixmap>
+         <pixmap resource="assets.qrc">:/assets/icons/images__1_-removebg-preview.png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
