@@ -5938,18 +5938,19 @@ background-image: url(:/assets/icons/Picture1.jpg);</string>
          <rect>
           <x>30</x>
           <y>410</y>
-          <width>41</width>
+          <width>31</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: transparent;</string>
+         <string notr="true">background-color: transparent
+</string>
         </property>
         <property name="text">
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="assets.qrc">:/assets/icons/png-transparent-computer-icons-iconfinder-report-icons-no-attribution-miscellaneous-angle-text.png</pixmap>
+         <pixmap resource="assets.qrc">:/assets/icons/images (1).png</pixmap>
         </property>
         <property name="scaledContents">
          <bool>true</bool>
